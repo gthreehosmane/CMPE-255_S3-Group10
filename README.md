@@ -13,4 +13,5 @@ Note -
 
   1. Please update the path for the dataset in code.
   2. If you get error for '.DS_store' and '.ipynb_checkpoints' files while running the code, please uncomment the line of code to remove those files in jupyter notebook.
+  3. Please always do a 'git pull' before you start workig on the code to avoid merge conflicts.
 
