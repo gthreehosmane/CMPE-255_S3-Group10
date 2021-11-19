@@ -7,3 +7,10 @@ Group Members:
   2. Niousha Noshiravani - 015963493 
   3. Pavan Karthik Gollakaram - 015945670 
   4. Teja Ganapati Jaddipal - 015957526(Github username - gthreehosmane)
+
+
+Note - 
+
+  1. Please update the path for the dataset in code.
+  2. If you get error for '.DS_store' and '.ipynb_checkpoints' files while running the code, please uncomment the line of code to remove those files in jupyter notebook.
+
