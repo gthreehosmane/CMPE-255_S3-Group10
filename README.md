@@ -17,3 +17,28 @@ Note -
   4. Make sure you have the latest version of 'matplotlib' installed.
   5. Install 'yellowbrick' extension
 
+
+
+
+References
+
+1.  https://www.delftstack.com/howto/python/python-readlines-without-newline/
+2.  https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory
+3.  https://docs.python.org/3/library/os.html
+4.  https://www.tutorialkart.com/python/python-read-file-as-string/
+5.  https://discuss.analyticsvidhya.com/t/how-to-calculate-the-accuracy-score-of-a-model-in-python/5622/3
+6.  https://scikit-learn.org/stable/modules/model_evaluation.html
+7.  https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay
+8.  https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html#sklearn.metrics.confusion_matrix
+9.  https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html#sklearn.metrics.classification_report
+10. https://stackoverflow.com/questions/28200786/how-to-plot-scikit-learn-classification-report
+11. https://scikit-learn.org/stable/auto_examples/text/plot_document_classification_20newsgroups.html#sphx-glr-auto-examples-text-plot-document-classification-20newsgroups-py
+12. https://www.dataquest.io/blog/tutorial-text-classification-in-python-using-spacy/
+13. https://www.analyticsvidhya.com/blog/2021/06/tune-hyperparameters-with-gridsearchcv/
+14. https://www.mygreatlearning.com/blog/gridsearchcv/
+15. https://medium.com/@cmukesh8688/sklearn-pipeline-gridsearchcv-54f5552bbf4e
+16 https://matplotlib.org/stable/gallery/lines_bars_and_markers/barchart.html
+17. https://stackoverflow.com/questions/35572000/how-can-i-plot-a-confusion-matrix
+18. https://www.scikit-yb.org/en/latest/api/classifier/classification_report.html
+19. https://stackoverflow.com/questions/28200786/how-to-plot-scikit-learn-classification-report
+
