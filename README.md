@@ -19,6 +19,7 @@ Steps to be followed:
   3. Please always do a 'git pull' before you start workig on the code to avoid merge conflicts.
   4. Make sure you have the latest version of 'matplotlib' installed.
   5. Install 'yellowbrick' extension
+>> conda install -c districtdatalabs yellowbrick
 
 
 
