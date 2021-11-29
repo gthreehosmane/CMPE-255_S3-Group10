@@ -9,7 +9,10 @@ Group Members:
   4. Teja Ganapati Jaddipal - 015957526(Github username - gthreehosmane)
 
 
-Note - 
+Steps to be followed:
+- If Spacy is not yet installed, run these commands:
+  !conda install --yes -c conda-forge spacy
+  !python -m spacy download en_core_web_sm
 
   1. Please update the path for the dataset in code.
   2. If you get error for '.DS_store' and '.ipynb_checkpoints' files while running the code, please uncomment the line of code to remove those files in jupyter notebook.
