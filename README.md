@@ -10,19 +10,26 @@ Group Members:
 
 
 Steps to be followed:
-- If Spacy is not yet installed, run these commands:<br/>
->>    !conda install --yes -c conda-forge spacy <br/>
-    !python -m spacy download en_core_web_sm
+1. Make sure that all required libraries are installed before running the .ipynb files
+2. Clone the github repository to local machine. The repository also contains the entire dataset.
+3. Upload the .ipynb files to jupyter notebook. Please update the path for the dataset in .ipynb files before running the notebook.
+4. Authorship-Identification-Gridsearch.ipynb is the code for the project using approach 1 which makes use of GridSearch for best hyperparameters. It takes lot of time to run.
+5. Authorship-Identification.ipynb is the code for the project using approach 2 which makes use of manual search for best hyperparameters.
+6. Following are the few errors we faced and the solution for the errors.
 
-  1. Please update the path for the dataset in code.
-  2. If you get error for '.DS_store' and '.ipynb_checkpoints' files while running the code, please uncomment the line of code to remove those files in jupyter notebook.
-  3. Please always do a 'git pull' before you start workig on the code to avoid merge conflicts.
-  4. Make sure you have the latest version of 'matplotlib' installed.
-  5. Install 'yellowbrick' extension
->> conda install -c districtdatalabs yellowbrick
-  6. If you face an error like 'cannot import safe_indexing', it is because of the version mismatch of scikit learn. Resolve this with the below commands
->>  conda remove scikit-learn
->>  conda install -c conda-forge scikit-learn=0.23.2
+  - If Spacy is not yet installed, run these commands:<br/>
+      !conda install --yes -c conda-forge spacy <br/>
+      !python -m spacy download en_core_web_sm
+  - Install 'yellowbrick' extension
+  >> conda install -c districtdatalabs yellowbrick
+7. If you face an error like 'cannot import safe_indexing', it is because of the version mismatch of scikit learn. Resolve this with the below commands
+      - conda remove scikit-learn
+      - conda install -c conda-forge scikit-learn=0.23.2
+8. If you get error for '.DS_store' and '.ipynb_checkpoints' files while running the code, please uncomment the line of code to remove those files in jupyter notebook.
+<img width="1021" alt="Screen Shot 2021-11-29 at 10 56 17 PM" src="https://user-images.githubusercontent.com/13237444/144000421-4aca267c-83b7-4dd3-9321-4157632ab148.png">
+
+
+
 
 
 
