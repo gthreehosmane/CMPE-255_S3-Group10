@@ -20,6 +20,9 @@ Steps to be followed:
   4. Make sure you have the latest version of 'matplotlib' installed.
   5. Install 'yellowbrick' extension
 >> conda install -c districtdatalabs yellowbrick
+  6. If you face an error like 'cannot import safe_indexing', it is because of the version mismatch of scikit learn. Resolve this with the below commands
+>>  conda remove scikit-learn
+>>  conda install -c conda-forge scikit-learn=0.23.2
 
 
 
